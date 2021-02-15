@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.conteiner {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(17, 29, 37);
+    
+}
+
+::placeholder {
+    color: gray;
+    text-align: center;
+}
+
+input:focus {
+    background-color: royalblue;
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px gray;
+    padding: 10px;
+}
+
+input {
+    border: 0px;
+    border-radius: 20px;
+    background-color: cyan;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70vw;
+    height: 7vh;
+    padding:10px;
+}
+
+#mek {
+    top: calc(50% - 130px);
+}
+
+#erku {
+    top: calc(50% - 50px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#ereq {
+    top: calc(50% + 30px);
+}
+
+#chors {
+    top: calc(50% + 100px);
+    background-color: blue;
+    height: 5vh;
+    width: 60vw;
+    color: white;
+    padding:3px;
+}
+
+h1 {
+   background-image: url("https://media.giphy.com/media/3ohzdZO0nAL1H2LdMA/giphy.gif");
+        -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index:1000;
+}
+
+h2 {
+    background-image: url("https://media.giphy.com/media/26FL7OPVJqJ6d3eLK/giphy.gif");
+        -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: calc(50% + 150px);
+    transform: translateX(-50%);
+    font-size: 40px;
+    border: 1px solid black;
+}
