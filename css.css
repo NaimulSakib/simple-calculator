@@ -7,8 +7,11 @@
 
 .conteiner {
     width: 100vw;
-    height: 100vh;
-    background-color: rgb(17, 29, 37);
+    height: 100vh;       
+}
+.text-calculator{
+    margin-top: 55px;
+    font-size: 80px;
     
 }
 
@@ -27,7 +30,7 @@ input:focus {
 input {
     border: 0px;
     border-radius: 20px;
-    background-color: cyan;
+    background-color: rgb(226, 196, 112);
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -53,8 +56,8 @@ input {
 #chors {
     top: calc(50% + 100px);
     background-color: blue;
-    height: 5vh;
-    width: 60vw;
+    height: 7vh;
+    width: 20vw;
     color: white;
     padding:3px;
 }
@@ -71,14 +74,17 @@ h1 {
 }
 
 h2 {
-    background-image: url("https://media.giphy.com/media/26FL7OPVJqJ6d3eLK/giphy.gif");
-        -webkit-background-clip: text;
+    background-image: url("https://media.giphy.com/media/3ohzdZO0nAL1H2LdMA/giphy.gif");
+    -webkit-background-clip: text;
     color: transparent;
+    margin-top: 25px;
     background-size: cover;
     position: absolute;
     left: 50%;
     top: calc(50% + 150px);
     transform: translateX(-50%);
-    font-size: 40px;
-    border: 1px solid black;
+    font-size: 60px;
+    border: 0.5px solid rgb(105, 102, 102);
+    border-width: 5px;
+    border-radius: 10px;
 }
