@@ -30,7 +30,7 @@ input:focus {
 input {
     border: 0px;
     border-radius: 20px;
-    background-color: rgb(226, 196, 112);
+    background-color: rgb(231, 214, 166);
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
